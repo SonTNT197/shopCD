@@ -1,0 +1,317 @@
+.carta{
+    display: none;
+}
+.back{
+    background: rgb(226, 226, 226);
+}
+.container{
+    
+    background: rgb(226, 226, 226);
+    width: 1366px;
+    margin: auto;
+    padding: 50px;
+    box-sizing: border-box;
+    
+}
+@media screen and (max-width:1366px) {
+    .container{
+        width: 100%;
+    }
+}
+/* body */
+.cartitem{
+    width:100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.hd{
+    background: rgb(32, 32, 32);
+    height: 100px;
+}
+.maincart{
+    height: 100%;
+    width: 200px;
+    background: rgb(32, 32, 32);
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+
+}
+.maincart>div{
+    height: 80%;
+    border-left: 3px solid white;
+}
+.maincart>h3{
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline-block;
+    font-size: 40px;
+}
+.row1{
+    height: 100%;
+    width: 700px;
+    
+    box-sizing: border-box;
+}
+.cartrow{
+    width: 150px;
+    /* background: red;
+    border: 1px solid black; */
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    font-size: 18px;
+}
+.tick{
+    width: 50px;
+    
+}
+.tick>input[type='checkbox']{
+    appearance: none;
+    background-color: white;
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    border: 4px solid white;
+    cursor: pointer;
+}
+.tick>input[type='checkbox']:checked{
+    background-color: black;
+}
+.ac{
+    width: 200px;
+}
+/* items */
+.bd{
+    margin-top: 20px;
+    background: white;
+    height: 150px;
+}
+.it1{
+    /* background: red; */
+    padding-left: 0;
+    
+    display: flex;
+    align-items: center;
+}
+.it1>div:first-child{
+    width: 50px;
+    text-align: center;
+    line-height: 150px;
+}
+.it1>div:nth-child(3){
+    width: 400px;
+    /* background: green; */
+    margin-left: 20px;
+}
+.it1>div:nth-child(3)>p{
+    color: rgb(85, 85, 85);
+    font-size: 14px;
+    
+}
+.it1>div:nth-child(3)>a{
+    text-decoration: none;
+    color: black;
+    
+}
+.it2{
+    color: black;
+    line-height: 100px;
+    border-left: 3px solid rgb(209, 209, 209);
+    height: 100px;
+}
+.quan{
+    line-height: normal;
+}
+.quan p{
+    display: inline-block;
+    margin-top: 38px;
+}
+.quan a{
+    cursor: pointer;
+    padding: 0 7px;
+    font-size: 15px;
+    background: black;
+    color: white;
+   user-select: none;
+}
+.quan a:active{
+    background: gray;
+    color: black;
+}
+.ac2{
+    width: 180px;
+
+}
+.ac2 a{
+    background: black;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.3s ease-in;
+}
+.ac2 a:hover{
+    background: rgb(184, 182, 182);
+    color: black;
+}
+.tick2{
+    width: 50px;
+    
+}
+.tick2>input[type='checkbox']{
+    appearance: none;
+    background-color: gray;
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    border: 4px solid gray;
+    cursor: pointer;
+}
+.tick2>input[type='checkbox']:checked{
+    background-color: black;
+}
+/* foot cart */
+.footcart{
+    width: 100%;
+    height: 50px;
+    background: black;
+}
+.footcart>div{
+    float: right;
+    color: white;
+    width: 500px;
+    height: 50px;
+}
+.footcart h3{
+    
+    display: inline-block;
+    margin-left: 60px;
+    line-height: 50px;
+    margin-right: 20px;
+    
+}
+.footcart h2{
+    
+    display: inline-block;
+    font-size: 25px;
+    width: 130px;
+}
+.checkout{
+    cursor: pointer;
+    background: white;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    padding: 5px 10px;
+    transition: 0.2s ease-in;
+         
+}
+.checkout:hover{
+    background: gray;
+
+}
+/* after checkout */
+.bgstep2{
+    display: none;
+    background: rgba(0, 0, 0, 0.863);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.step2cart{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgb(255, 255, 255);
+    height: 300px;
+    width: 700px;
+    z-index: 2;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+.step2cart>div:first-child{
+    background: rgb(15, 15, 15);
+    margin-left: -20px;
+    text-align: center;
+}
+.step2cart>div>h2{
+    color: rgb(212, 212, 212);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+.step2cart p{
+    font-size: 14px;
+    font-weight: bolder;
+}
+.address{
+    height: 40px;
+    border: 2px solid rgb(0, 0, 0);
+    width: 660px;
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 20px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.address:focus{
+    outline: none;
+}
+.payment{
+    margin-top: 5px;
+    width: 268px;
+    padding: 5px;
+    font-size: 16px;
+    line-height: 1;
+    border: 0;
+    border-radius: 5px;
+    height: 34px;
+    background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right #ddd;
+    -webkit-appearance: none;
+    background-position-x: 244px;
+    outline: none;
+    border: 2px solid black;
+}
+.confirm{
+    background: black;
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 18px;
+    margin-top: 50px;
+    width: 640px;
+    text-align: center;
+    transition: 0.05s;
+}
+.confirm:active{
+    background: gray;
+    color: black;
+}
+
+.cartitem2{
+    margin-top: 50px;
+    height: 150px;
+    background: white;
+    text-align: center;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+.notifymsg{
+    background: rgb(248, 38, 38);
+    padding: 20px;
+    animation-name: showing;
+    animation-duration: 0.5s;
+    font-size: 18px;
+}
+@keyframes showing{
+        from {margin-left: -400px;}
+        to {margin-left: 0px;}
+}

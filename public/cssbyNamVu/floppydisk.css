@@ -1,0 +1,247 @@
+.container{
+    height: 1600px;
+    background: white;
+    width: 1366px;
+    margin: auto;
+}
+@media screen and (max-width:1366px){
+    .container{
+        width: 100%;
+    }
+}
+.headshop{
+    background: black;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.headshop>div{
+    
+    width: 330px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+.headshop>div>a{
+    text-decoration: none;
+    
+}
+
+.titlehead{
+    position: absolute;
+    z-index: 4;
+    top: 150px;
+    left: 50%;
+    
+    color: white;
+    font-size: 45px;
+    transform:translate(-50%, 0%); 
+}
+.titlehead>h2{
+    text-align: center;
+    
+}
+.headshop>div:hover .imga1{
+    height: 450px;
+    top: -25px;
+    left: -170px;
+}
+.titleimg{
+    position: absolute;
+    z-index: 2;
+    color: rgb(226, 225, 225);
+    top:360px;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    
+}
+.titleimg>h3{
+    font-family:monospace;
+    font-size: 20px;
+}
+.bl{
+    background: rgba(0, 0, 0, 0.767);
+    position: absolute;
+    z-index: 2;
+    width: 500px;
+    height: 500px;
+    top: 0;
+    left: 0;
+    transition: 0.3s;
+}
+.bl:hover{
+    background: rgba(0, 0, 0, 0.432);
+}
+.imga2{
+    position: absolute;
+    z-index: 0;
+    left: -30px;
+    top: -100px;
+    transition: 0.3s;
+}
+.headshop>div:hover .imga2{
+    width: 120%;
+    top: -130px;
+    left: -50px;
+}
+.imga3{
+    position: absolute;
+    z-index: 0;
+    left: -120px;
+    top: -5px;
+    transition: 0.3s;
+}
+.headshop>div:hover .imga3{
+    height: 440px;
+    top: -20px;
+    left: -150px;
+}
+.imga4{
+    position: absolute;
+    z-index: 0;
+    left: -190px;
+    top: -5px;
+    transition: 0.3s;
+}
+.headshop>div:hover .imga4{
+    height: 430px;
+    top: -10px;
+    left: -200px;
+}
+.bodyshop{
+    padding-top: 30px;
+    
+    display: flex;
+    justify-content: space-around;
+}
+.filter{
+    background: green;
+    width: 200px;
+    height: 500px;
+}
+.list{
+    background: white;
+    border: 1px solid rgb(201, 201, 201);
+    width: 1100px;
+    justify-content: space-around;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+/* card css */
+.card{
+    text-align: center;
+    width: 250px;
+    height: 470px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(212, 212, 212);
+    padding: 3px;
+    background: white;
+    transition: 0.3s;
+}
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.des-menu{
+    padding-left: 30px;
+    display: flex;
+    margin-bottom: 0px;
+}
+.des-menu div{
+    margin-right: 10px;
+}
+.des-menu p{
+    text-align: start;
+    line-height: 40px;
+    font-size: 14px;
+    color: rgb(99, 99, 99);
+}
+
+.learn-more{
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    padding:10px;
+    text-decoration: none;
+}
+.learn-more:hover{
+    transition: 0.5s;
+    text-decoration: underline;
+    color: rgb(37, 37, 37);
+    border-radius: 10px;
+}
+.compare{
+    text-decoration: none;
+    color: blue;
+    
+}
+.compare:hover{
+    text-decoration: underline;
+    color: rgb(58, 58, 255);
+}
+.btn{
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 5px 10px;
+    background: black;
+    border: none;
+    border-radius:5px;
+    color: white;
+    font-size: 16px;
+    border: 1px solid black;
+}
+.btn:hover{
+    background: rgb(75, 75, 75);
+    
+}
+.btn:active{
+    background: white;
+    
+    color: black;
+}
+.card>p{
+    font-weight: bolder;
+    line-height: 30px;
+}
+/* end css card */
+
+/* filter css */
+.filter{
+    background: rgb(214, 214, 214);
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 300px;
+}
+.filter>select{
+    margin: 10px;
+    height: 30px;
+    border: 1px solid rgb(216, 216, 216);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: rgb(146, 146, 146);
+    width: 80%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+option{
+    border: none;
+    
+}
+.filter>div{
+    margin-top: 80px;
+}
+.backall{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding-top: 160px;
+    position: absolute;
+    z-index: 1;
+    background: rgb(255, 102, 0);
+}
+

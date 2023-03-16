@@ -1,0 +1,440 @@
+.container{
+    width: 100%;
+    margin: auto;
+    background: rgb(187, 187, 187);
+    height: 2780px;
+}
+.ad-home{
+    background: red;
+    height: 700px;
+    color: white;
+    padding-top: 70px;
+    width: 1366px;
+    margin: auto;
+    position: relative;
+}
+.fontad{
+    background: rgba(0, 0, 0, 0.623);
+    border-radius: 20px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    padding:50px
+}
+.fontad:hover{
+    transition: 0.6s;
+    background: rgba(0, 0, 0, 0.842);
+    
+}
+.fontad h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+    line-height: 50px;
+    
+    
+    
+}
+.fontad a{
+    text-decoration: none;
+    background: black;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+}
+.fontad a:hover{
+    transition: 0.3s;
+    background: white;
+    color: black;
+}
+
+.fontad p{
+    font-size: 14px;
+    color: rgb(199, 199, 199);
+}
+.what-new{
+    background: black;
+    z-index: 5;
+    width: 1366px;
+    position: absolute;
+    top: 700px;
+    color: black;
+    transition: 0.6s;
+}
+.what-new>p{
+   
+    padding-left: 20px;
+    margin : 10px;
+}
+.newcards{
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    background: white;
+}
+/* make animation */
+
+/* card in newproduct */
+.insidenewcards{
+    text-align: center;
+    width: 250px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(212, 212, 212);
+    padding: 3px;
+}
+.insidenewcards:hover{
+    padding: 0px;
+    border-radius: 10px;
+    transition: 0.2s;
+    border: 4px solid black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.des-menu{
+    padding-left: 30px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.des-menu div{
+    margin-right: 10px;
+}
+.des-menu p{
+    text-align: start;
+    line-height: 40px;
+    font-size: 14px;
+    color: rgb(99, 99, 99);
+}
+.insidenewcards button{
+    padding: 10px;
+    width: 100px;
+    margin-bottom: 10px;
+    
+}
+.learn-more{
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    padding:10px;
+}
+.learn-more:hover{
+    transition: 0.5s;
+    background: black;
+    color: white;
+    border-radius: 10px;
+}
+
+/* button  */
+.button-50 {
+  appearance: button;
+  background-color: #000;
+  background-image: none;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0 5px 10px 0;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-50:focus {
+  text-decoration: none;
+}
+
+.button-50:hover {
+  text-decoration: none;
+}
+
+.button-50:active {
+  box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+  outline: 0;
+}
+
+.button-50:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-50 {
+    padding: 12px 50px;
+  }
+}
+/* end button*/
+
+
+/* CSS-muc luc */
+.menu-cat {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 200px;
+  background: black;
+}
+
+.act {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  .menu-cat {
+    padding: 0.25em 0.75em;
+  }
+}
+/* end catmenu */
+.downcard{
+    background: black;
+    
+    width: 1366px;
+    margin: auto;
+    position: relative;
+}
+.space{
+    height: 130px;
+}
+.cat2{
+    top: 85px;
+    left: 20px;
+    position: absolute;
+    z-index: 1;
+}
+.categories{
+    background: rgb(139, 139, 139);
+    height: 600px;
+    padding:20px 25px 20px 20px;
+}
+.ch1{
+    display: flex;
+    
+    height: 600px;
+    justify-content: space-around;
+}
+.ch2{
+    
+    width: 48%;
+    height: 100%;
+    
+}
+.c1{
+    
+    border-radius: 20px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+.c2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+.c2>div{
+    background: rgb(197, 197, 197);
+    width: 48%;
+    height: 48%;
+    border-radius: 20px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+.imgfeatured{
+    transition: 0.5s;
+    position: absolute;
+    z-index: 1;
+    
+    transition: 0.3s;
+    top: -20px;
+    left: -60px;
+}
+.imgfeatured:hover{
+    top: -30px;
+}
+.c1 a div{
+    position: absolute;
+    z-index: 2;
+    
+    color: white;
+    bottom: 70px;
+    width: 635px;
+    font-size: 20px;
+}
+
+.childc2{
+    position: absolute;
+    z-index: 2;
+    
+    width: 305px;
+    bottom: 15px;
+    color: black;
+}
+.childc2>p{
+    font-size: 12px;
+}
+
+.whitecard{
+    color: white;
+    
+
+}
+.featured{
+    background: white;
+    
+    width: 1366px;
+    margin: 20px auto;
+    
+}
+
+.headf{
+    height: 50px;
+    background: black;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+/* swiper library css */
+
+
+.featured-swiper {
+    position: relative;
+  height: 600px;
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: black;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 90%;
+  height: 100%;
+  object-fit: cover;
+}
+.swiper-button-next,.swiper-button-prev{
+    color: white;
+    background: none;
+    border: none;
+}
+.swiper-pagination{
+    background: white;
+}
+.maps{
+    
+    background: white;
+    width: 1366px;
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+    
+}
+.maps>div:first-child{
+    width: 40%;
+    height: 510px;
+   
+}
+.maps>div:nth-child(2){
+    width: 60%;
+    height: 100%;
+}
+.headermap{
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-left: 20px;
+    height: 60px;
+    width: 100%;
+    background: black;
+}
+.upmap{
+    padding: 90px 50px;
+    box-sizing: border-box;
+    
+}
+.upmap>div>span{
+    line-height: 40px;
+   color: rgb(82, 82, 82);
+   font-size: 14px;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.upmap>div>p{
+    font-size: 14px;
+    line-height: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.upmap>div>a{
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    line-height: 50px;
+    
+}
+.upmap>div>a:hover{
+    text-decoration: underline;
+}
+.upmap>div:first-child{
+    border-bottom: 1px solid rgb(187, 186, 186);
+    
+}
+.upmap>div:nth-child(2){
+    text-align: center;
+    color: rgb(70, 70, 70);
+}
+@media screen and (max-width:1366px) {
+    .featured{
+        width: 100%;
+    }
+}
